@@ -1,3 +1,18 @@
+.row {
+  display: flex;
+  flex-direction: row;
+}
 
+.header-wrap {
+  width: 100vw;
+  margin: 0;
+}
+.header-wrap .aside-wrap {
+  width: 100%;
+  background-color: #444444;
+}
+.header-wrap .aside-wrap aside {
+  width: 72%;
+}
 
 /*# sourceMappingURL=main.css.map */

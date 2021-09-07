@@ -1,0 +1,16 @@
+@import "../components/_components.scss";
+.header-wrap {
+  width: 100vw;
+  margin: 0;
+  .aside-wrap {
+    width: 100%;
+    background-color: $color-bg-grey;
+    aside {
+      width: 72%;
+      span {
+      }
+      .language-input {
+      }
+    }
+  }
+}
