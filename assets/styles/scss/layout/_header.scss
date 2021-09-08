@@ -1,15 +1,36 @@
 @import "../components/_components.scss";
+
 .header-wrap {
   width: 100vw;
   margin: 0;
+  align-items: center;
   .aside-wrap {
     width: 100%;
     background-color: $color-bg-grey;
+    margin: 0 auto;
+    height: 70px;
+    align-items: center;
     aside {
       width: 72%;
+      margin: 0 auto;
+      padding: 0 17px;
+      align-items: center;
       span {
+        font-size: $font-size-12;
+        color: $color-txt-1;
+        font-weight: $font-weight-400;
+        letter-spacing: 0em;
       }
-      .language-input {
+      .lang-input-wrap {
+        height: 33px;
+        flex: 1;
+        .lang-input {
+          border: 1px solid $color-txt-2;
+          border-radius: 4px;
+          padding: 0 15px;
+          outline: none;
+          content: "\2713";
+        }
       }
     }
   }

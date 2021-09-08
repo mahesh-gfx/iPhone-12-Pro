@@ -1,5 +1,21 @@
+@import "base/_reset.scss";
 @import "variables/_variables.scss";
 @import "components/_components.scss";
 @import "layout/_layout.scss";
 @import "layout/_header.scss";
-@import "base/_reset.scss";
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+
+html,
+body {
+  font-family: "San Francisco", Helvetica, Arial, san-serif;
+}
+
+.svg-icon {
+  width: 20px;
+  height: 20px;
+}

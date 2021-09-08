@@ -1,19 +1,4 @@
-.row {
-  display: flex;
-  flex-direction: row;
-}
-
-.header-wrap {
-  width: 100vw;
-  margin: 0;
-}
-.header-wrap .aside-wrap {
-  width: 100%;
-  background-color: #444444;
-}
-.header-wrap .aside-wrap aside {
-  width: 72%;
-}
+@charset "UTF-8";
 html,
 body,
 div,
@@ -145,6 +130,71 @@ q:before, q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
+
+.header-wrap {
+  width: 100vw;
+  margin: 0;
+  align-items: center;
+}
+.header-wrap .aside-wrap {
+  width: 100%;
+  background-color: #444444;
+  margin: 0 auto;
+  height: 70px;
+  align-items: center;
+}
+.header-wrap .aside-wrap aside {
+  width: 72%;
+  margin: 0 auto;
+  padding: 0 17px;
+  align-items: center;
+}
+.header-wrap .aside-wrap aside span {
+  font-size: 12px;
+  color: #f5f5f7;
+  font-weight: 400;
+  letter-spacing: 0em;
+}
+.header-wrap .aside-wrap aside .lang-input-wrap {
+  height: 33px;
+  flex: 1;
+}
+.header-wrap .aside-wrap aside .lang-input-wrap .lang-input {
+  border: 1px solid #757576;
+  border-radius: 4px;
+  padding: 0 15px;
+  outline: none;
+  content: "✓";
+}
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+html,
+body {
+  font-family: "San Francisco", Helvetica, Arial, san-serif;
+}
+
+.svg-icon {
+  width: 20px;
+  height: 20px;
 }
 
 /*# sourceMappingURL=main.css.map */

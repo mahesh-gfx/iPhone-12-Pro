@@ -2,3 +2,12 @@
   display: flex;
   flex-direction: row;
 }
+
+.col {
+  display: flex;
+  flex-direction: column;
+}
+
+.space-between {
+  justify-content: space-between;
+}
